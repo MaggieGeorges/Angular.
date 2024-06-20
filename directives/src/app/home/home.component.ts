@@ -7,7 +7,7 @@ import { log } from 'console';
   selector: 'app-home',
   standalone: true,
   imports: [FormsModule, CommonModule],
-  templateUrl: './home.component.html',
+  templateUrl: './home.compo nent.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {

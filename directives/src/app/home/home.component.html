@@ -19,21 +19,22 @@ Includes:
     
 
     <label for="name">Age</label>
-    <input type="text">
-
+    <input type="text" [(ngModel)]="age">
     <button (click)="add()"> Add </button>
 </div>
 
-<!--ngIf-->
+<!--ngIf>
 <div *ngIf="people.length; else noPeople">
     <h1> List of People </h1>
-<!--ngFor-->
+-->
+<!--ngFor>
     <div *ngFor="let person of people; let i=index">
         <p>{{person.Name}}</p>
         <p>{{person.Age}}</p>
         <button (click)="deletedPerson(i)">Delete</button>
     </div>
 </div>
+-->
 
 <!--<p *ngIf="!people.length"><i>List Empty, Kindly Add a Person</i></p>
 -->
